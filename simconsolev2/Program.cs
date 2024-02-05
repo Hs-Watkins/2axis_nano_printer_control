@@ -19,7 +19,7 @@ namespace KDC101Console
         {
             // Uncomment this line (and SimulationManager.Instance.UninitializeSimulations() at the end on Main)
             // If you are using a simulated device
-            SimulationManager.Instance.InitializeSimulations();
+            //SimulationManager.Instance.InitializeSimulations();
 
             // Find the Devices and Begin Communicating with them
 
@@ -124,7 +124,7 @@ namespace KDC101Console
             Console.ReadKey();
 
             // Uncomment this line if you are using Simulations
-            SimulationManager.Instance.UninitializeSimulations();
+            //SimulationManager.Instance.UninitializeSimulations();
 
 
 
