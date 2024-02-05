@@ -20,12 +20,13 @@ namespace KDC101Console
             // Uncomment this line (and SimulationManager.Instance.UninitializeSimulations() at the end on Main)
             // If you are using a simulated device
             //SimulationManager.Instance.InitializeSimulations();
-
+            //string serialNo1 = "27000001"; // X axis
+           // string serialNo2 = "27000002"; // Y axis
             // Find the Devices and Begin Communicating with them
 
             // Enter the serial number for your device
-            string serialNo1 = "27000001";
-            string serialNo2 = "27000002";
+            string serialNo1 = "27505282"; // X axis
+            string serialNo2 = "27505360"; // Y axis
 
             DeviceManagerCLI.BuildDeviceList();
 
